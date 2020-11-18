@@ -1,0 +1,16 @@
+#!/bin/fish
+
+set TOTAL_ITEMS $argv[1]
+set PRCNT_ITEMS $argv[2]
+
+set F_CHAR \u25fb
+set E_CHAR \u25fc
+
+
+set FILED_STATUS (echo "(($TOTAL_ITEMS * $PRCNT_ITEMS)/100 + 0.5) / 1" | bc)
+set EMPTY_STATUS (echo "$TOTAL_ITEMS - $FILED_STATUS" | bc)
+
+set msg (printf "#%.0s" (seq $FILED_STATUS) | sed "s|#|$F_CHAR|g")
+set msg $msg(printf "#%.0s" (seq $EMPTY_STATUS) | sed "s|#|$E_CHAR|g")
+
+echo $msg

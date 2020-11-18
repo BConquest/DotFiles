@@ -1,0 +1,1259 @@
+Handbrake Version: 1.3.3 (2020061600)
+[11:30:18] gtkgui: Preset: /Production/Production Max
+[11:30:18] Starting work at: Wed Nov 11 11:30:18 2020
+
+[11:30:18] 1 job(s) to process
+[11:30:18] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            },
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "Visually Impaired",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 1
+            },
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 2
+            },
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 3
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "none"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 34,
+                    "Ticks": 13833000
+                },
+                "Name": "Chapter 1"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 5,
+                    "Seconds": 12,
+                    "Ticks": 28035000
+                },
+                "Name": "Chapter 2"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 56,
+                    "Ticks": 5067000
+                },
+                "Name": "Chapter 3"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 22,
+                    "Ticks": 12750030
+                },
+                "Name": "Chapter 4"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 16,
+                    "Ticks": 6884910
+                },
+                "Name": "Chapter 5"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 20,
+                    "Ticks": 7188030
+                },
+                "Name": "Chapter 6"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 39,
+                    "Ticks": 19677060
+                },
+                "Name": "Chapter 7"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 49,
+                    "Ticks": 15243030
+                },
+                "Name": "Chapter 8"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 45,
+                    "Ticks": 9461970
+                },
+                "Name": "Chapter 9"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 52,
+                    "Ticks": 10098000
+                },
+                "Name": "Chapter 10"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 44,
+                    "Ticks": 3987000
+                },
+                "Name": "Chapter 11"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 22,
+                    "Ticks": 12768030
+                },
+                "Name": "Chapter 12"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 53,
+                    "Ticks": 4781970
+                },
+                "Name": "Chapter 13"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 51,
+                    "Ticks": 15345000
+                },
+                "Name": "Chapter 14"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 16,
+                    "Ticks": 17640000
+                },
+                "Name": "Chapter 15"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 18,
+                    "Ticks": 17789940
+                },
+                "Name": "Chapter 16"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 5,
+                    "Seconds": 19,
+                    "Ticks": 28665000
+                },
+                "Name": "Chapter 17"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 4,
+                    "Seconds": 46,
+                    "Ticks": 25710030
+                },
+                "Name": "Chapter 18"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 48,
+                    "Ticks": 20505060
+                },
+                "Name": "Chapter 19"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 20,
+                    "Ticks": 7155000
+                },
+                "Name": "Chapter 20"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 29,
+                    "Ticks": 18839970
+                },
+                "Name": "Chapter 21"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 55,
+                    "Ticks": 21123090
+                },
+                "Name": "Chapter 22"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 19,
+                    "Ticks": 12552030
+                },
+                "Name": "Chapter 23"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 18,
+                    "Ticks": 17775000
+                },
+                "Name": "Chapter 24"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 4,
+                    "Seconds": 58,
+                    "Ticks": 26840970
+                },
+                "Name": "Chapter 25"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 25,
+                    "Ticks": 13077000
+                },
+                "Name": "Chapter 26"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 39,
+                    "Ticks": 19692000
+                },
+                "Name": "Chapter 27"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 36,
+                    "Ticks": 14010030
+                },
+                "Name": "Chapter 28"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 51,
+                    "Ticks": 15360030
+                },
+                "Name": "Chapter 29"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 30,
+                    "Ticks": 8133030
+                },
+                "Name": "Chapter 30"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 33,
+                    "Ticks": 13785030
+                },
+                "Name": "Chapter 31"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 36,
+                    "Ticks": 8637030
+                },
+                "Name": "Chapter 32"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 22,
+                    "Ticks": 12794940
+                },
+                "Name": "Chapter 33"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 56,
+                    "Ticks": 10473030
+                },
+                "Name": "Chapter 34"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 25,
+                    "Ticks": 13032000
+                },
+                "Name": "Chapter 35"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 49,
+                    "Ticks": 9780030
+                },
+                "Name": "Chapter 36"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 41,
+                    "Ticks": 9060030
+                },
+                "Name": "Chapter 37"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 39,
+                    "Ticks": 14324940
+                },
+                "Name": "Chapter 38"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 16,
+                    "Ticks": 12270060
+                },
+                "Name": "Chapter 39"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 43,
+                    "Ticks": 14625000
+                },
+                "Name": "Chapter 40"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 28,
+                    "Ticks": 13335030
+                },
+                "Name": "Chapter 41"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 36,
+                    "Ticks": 14054940
+                },
+                "Name": "Chapter 42"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 57,
+                    "Ticks": 15959970
+                },
+                "Name": "Chapter 43"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 17,
+                    "Ticks": 12348000
+                },
+                "Name": "Chapter 44"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 3,
+                    "Seconds": 37,
+                    "Ticks": 19527030
+                },
+                "Name": "Chapter 45"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 1,
+                    "Seconds": 48,
+                    "Ticks": 9705060
+                },
+                "Name": "Chapter 46"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 4,
+                    "Ticks": 11174940
+                },
+                "Name": "Chapter 47"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 2,
+                    "Seconds": 26,
+                    "Ticks": 13169970
+                },
+                "Name": "Chapter 48"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 8,
+                    "Seconds": 15,
+                    "Ticks": 44535060
+                },
+                "Name": "Chapter 49"
+            },
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 1,
+                    "Ticks": 45000
+                },
+                "Name": "Chapter 50"
+            }
+        ],
+        "ChapterMarkers": true,
+        "File": "/home/blu/Rogue One.m4v",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 1
+                }
+            },
+            {
+                "ID": 12,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 406,
+                    "width": 720
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "ROGUE_ONE"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/dev/sr0",
+        "Range": {
+            "End": 50,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ColorFormat": 0,
+        "ColorMatrix": 6,
+        "ColorPrimaries": 6,
+        "ColorRange": 1,
+        "ColorTransfer": 6,
+        "Encoder": "x264",
+        "Level": "auto",
+        "Options": "keyint=12:min-keyint=1:ref=1:bframes=0:qcomp=0.8:aq-strength=0.5:dct-decimate=0:fast-pskip=0:deblock=-2,-2",
+        "Preset": "fast",
+        "Profile": "high",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 2.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[11:30:18] CPU: 
+[11:30:18]  - logical processor count: 8
+[11:30:18] hb_scan: path=/dev/sr0, title_index=1
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+bluray.c:2602: nav_get_title_list((null)) failed
+[11:30:21] bd: not a bd - trying as a stream/file instead
+[11:30:21] dvd: Region mask 0xff
+[11:30:21] dvd: Warning, DVD device has no region set
+[11:30:21] scan: DVD has 9 title(s)
+[11:30:21] scan: scanning title 1
+[11:30:21] dvd: Skipping multi-angle cells 1-3
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 1-3
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] scan: duration is 02:13:49 (8029166 ms)
+[11:30:21] pgc_id: 1, pgn: 1: pgc: 0x7f440c040ac0
+[11:30:21] scan: checking audio 1
+[11:30:21] scan: id=0x80bd, lang=English (AC3), 3cc=eng ext=1
+[11:30:21] scan: checking audio 2
+[11:30:21] scan: id=0x81bd, lang=English (AC3), 3cc=eng ext=2
+[11:30:21] scan: checking audio 3
+[11:30:21] scan: id=0x82bd, lang=Francais (AC3), 3cc=fra ext=1
+[11:30:21] scan: checking audio 4
+[11:30:21] scan: id=0x83bd, lang=español (AC3), 3cc=spa ext=1
+[11:30:21] scan: checking subtitle 1
+[11:30:21] scan: id=0x20bd, lang=English Closed Caption (Wide Screen) [VOBSUB], 3cc=eng ext=5
+[11:30:21] scan: id=0x21bd, lang=English Closed Caption (Letterbox) [VOBSUB], 3cc=eng ext=5
+[11:30:21] scan: checking subtitle 2
+[11:30:21] scan: id=0x22bd, lang=Francais (Wide Screen) [VOBSUB], 3cc=fra ext=1
+[11:30:21] scan: id=0x23bd, lang=Francais (Letterbox) [VOBSUB], 3cc=fra ext=1
+[11:30:21] scan: checking subtitle 3
+[11:30:21] scan: id=0x24bd, lang=español (Wide Screen) [VOBSUB], 3cc=spa ext=1
+[11:30:21] scan: id=0x25bd, lang=español (Letterbox) [VOBSUB], 3cc=spa ext=1
+[11:30:21] scan: checking subtitle 4
+[11:30:21] scan: id=0x26bd, lang=Francais Forced (Wide Screen) [VOBSUB], 3cc=fra ext=9
+[11:30:21] scan: id=0x27bd, lang=Francais Forced (Letterbox) [VOBSUB], 3cc=fra ext=9
+[11:30:21] scan: checking subtitle 5
+[11:30:21] scan: id=0x28bd, lang=español Forced (Wide Screen) [VOBSUB], 3cc=spa ext=9
+[11:30:21] scan: id=0x29bd, lang=español Forced (Letterbox) [VOBSUB], 3cc=spa ext=9
+[11:30:21] scan: title 1 has 50 chapters
+[11:30:21] scan: chap 1, 153700 ms
+[11:30:21] scan: chap 2, 311500 ms
+[11:30:21] scan: chap 3, 56300 ms
+[11:30:21] scan: chap 4, 141667 ms
+[11:30:21] scan: chap 5, 76499 ms
+[11:30:21] scan: chap 6, 79867 ms
+[11:30:21] scan: chap 7, 218634 ms
+[11:30:21] scan: chap 8, 169367 ms
+[11:30:21] scan: chap 9, 105133 ms
+[11:30:21] scan: chap 10, 112200 ms
+[11:30:21] scan: chap 11, 44300 ms
+[11:30:21] scan: chap 12, 141867 ms
+[11:30:21] scan: chap 13, 53133 ms
+[11:30:21] scan: chap 14, 170500 ms
+[11:30:21] scan: chap 15, 196000 ms
+[11:30:21] scan: chap 16, 197666 ms
+[11:30:21] scan: chap 17, 318500 ms
+[11:30:21] scan: chap 18, 285667 ms
+[11:30:21] scan: chap 19, 227834 ms
+[11:30:21] scan: chap 20, 79500 ms
+[11:30:21] scan: chap 21, 209333 ms
+[11:30:21] scan: chap 22, 234701 ms
+[11:30:21] scan: chap 23, 139467 ms
+[11:30:21] scan: chap 24, 197500 ms
+[11:30:21] scan: chap 25, 298233 ms
+[11:30:21] scan: chap 26, 145300 ms
+[11:30:21] scan: chap 27, 218800 ms
+[11:30:21] scan: chap 28, 155667 ms
+[11:30:21] scan: chap 29, 170667 ms
+[11:30:21] scan: chap 30, 90367 ms
+[11:30:21] scan: chap 31, 153167 ms
+[11:30:21] scan: chap 32, 95967 ms
+[11:30:21] scan: chap 33, 142166 ms
+[11:30:21] scan: chap 34, 116367 ms
+[11:30:21] scan: chap 35, 144800 ms
+[11:30:21] scan: chap 36, 108667 ms
+[11:30:21] scan: chap 37, 100667 ms
+[11:30:21] scan: chap 38, 159166 ms
+[11:30:21] scan: chap 39, 136334 ms
+[11:30:21] scan: chap 40, 162500 ms
+[11:30:21] scan: chap 41, 148167 ms
+[11:30:21] scan: chap 42, 156166 ms
+[11:30:21] scan: chap 43, 177333 ms
+[11:30:21] scan: chap 44, 137200 ms
+[11:30:21] scan: chap 45, 216967 ms
+[11:30:21] scan: chap 46, 107834 ms
+[11:30:21] scan: chap 47, 124166 ms
+[11:30:21] scan: chap 48, 146333 ms
+[11:30:21] scan: chap 49, 494834 ms
+[11:30:21] scan: chap 50, 500 ms
+[11:30:21] scan: aspect = 16:9
+[11:30:21] scan: decoding previews for title 1
+[11:30:21] dvd: Skipping multi-angle cells 1-3
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] dvd: Skipping multi-angle cells 1-3
+[11:30:21] dvd: Skipping multi-angle cells 6-8
+[11:30:21] dvd: Skipping multi-angle cells 10-12
+[11:30:21] dvd: Skipping multi-angle cells 14-16
+[11:30:21] dvd: Skipping multi-angle cells 18-20
+[11:30:21] dvd: Skipping multi-angle cells 22-24
+[11:30:21] dvd: Skipping multi-angle cells 26-28
+[11:30:21] dvd: Skipping multi-angle cells 30-32
+[11:30:21] dvd: Skipping multi-angle cells 34-36
+[11:30:21] dvd: Skipping multi-angle cells 40-42
+[11:30:21] dvd: Skipping multi-angle cells 52-54
+[11:30:21] dvd: Skipping multi-angle cells 64-66
+[11:30:21] dvd: Skipping multi-angle cells 80-82
+[11:30:21] scan: title angle(s) 3
+[11:30:22] scan: audio 0x80bd: ac3, rate=48000Hz, bitrate=448000 English (AC3) (5.1 ch) (448 kbps)
+[11:30:22] scan: audio 0x81bd: ac3, rate=48000Hz, bitrate=192000 English (AC3) (Visually Impaired) (2.0 ch) (192 kbps)
+[11:30:22] scan: audio 0x83bd: ac3, rate=48000Hz, bitrate=384000 español (AC3) (5.1 ch) (384 kbps)
+[11:30:22] scan: audio 0x82bd: ac3, rate=48000Hz, bitrate=384000 Francais (AC3) (5.1 ch) (384 kbps)
+[11:30:25] scan: 10 previews, 720x480, 23.976 fps, autocrop = 58/62/0/2, aspect 16:9, PAR 32:27
+[11:30:25] libhb: scan thread found 1 valid title(s)
+[11:30:25] Starting Task: Encoding Pass
+[11:30:25] job configuration:
+[11:30:25]  * source
+[11:30:25]    + /dev/sr0
+[11:30:25]    + title 1, chapter(s) 1 to 50
+[11:30:25]  * destination
+[11:30:25]    + /home/blu/Rogue One.m4v
+[11:30:25]    + container: MPEG-4 (libavformat)
+[11:30:25]      + chapter markers
+[11:30:25]  * video track
+[11:30:25]    + decoder: mpeg2video
+[11:30:25]      + bitrate 200 kbps
+[11:30:25]    + filters
+[11:30:25]      + Framerate Shaper (mode=1)
+[11:30:25]        + frame rate: 23.976 fps -> constant 23.976 fps
+[11:30:25]      + Crop and Scale (width=720:height=406:crop-top=0:crop-bottom=0:crop-left=0:crop-right=0)
+[11:30:25]        + source: 720 * 480, crop (0/0/0/0): 720 * 480, scale: 720 * 406
+[11:30:25]    + Output geometry
+[11:30:25]      + storage dimensions: 720 x 406
+[11:30:25]      + pixel aspect ratio: 1 : 1
+[11:30:25]      + display dimensions: 720 x 406
+[11:30:25]    + encoder: H.264 (libx264)
+[11:30:25]      + preset:  fast
+[11:30:25]      + options: keyint=12:min-keyint=1:ref=1:bframes=0:qcomp=0.8:aq-strength=0.5:dct-decimate=0:fast-pskip=0:deblock=-2,-2
+[11:30:25]      + profile: high
+[11:30:25]      + level:   auto
+[11:30:25]      + quality: 2.00 (RF)
+[11:30:25]      + color profile: 6-6-6
+[11:30:25]  * audio track 1
+[11:30:25]    + decoder: English (AC3) (5.1 ch) (448 kbps) (track 1, id 0x80bd)
+[11:30:25]      + bitrate: 448 kbps, samplerate: 48000 Hz
+[11:30:25]    + mixdown: Stereo
+[11:30:25]    + dither: triangular
+[11:30:25]    + encoder: AAC (libavcodec)
+[11:30:25]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[11:30:25]  * audio track 2
+[11:30:25]    + name: Visually Impaired
+[11:30:25]    + decoder: English (AC3) (Visually Impaired) (2.0 ch) (192 kbps) (track 2, id 0x81bd)
+[11:30:25]      + bitrate: 192 kbps, samplerate: 48000 Hz
+[11:30:25]    + mixdown: Stereo
+[11:30:25]    + dither: triangular
+[11:30:25]    + encoder: AAC (libavcodec)
+[11:30:25]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[11:30:25]  * audio track 3
+[11:30:25]    + decoder: Francais (AC3) (5.1 ch) (384 kbps) (track 3, id 0x82bd)
+[11:30:25]      + bitrate: 384 kbps, samplerate: 48000 Hz
+[11:30:25]    + mixdown: Stereo
+[11:30:25]    + dither: triangular
+[11:30:25]    + encoder: AAC (libavcodec)
+[11:30:25]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[11:30:25]  * audio track 4
+[11:30:25]    + decoder: español (AC3) (5.1 ch) (384 kbps) (track 4, id 0x83bd)
+[11:30:25]      + bitrate: 384 kbps, samplerate: 48000 Hz
+[11:30:25]    + mixdown: Stereo
+[11:30:25]    + dither: triangular
+[11:30:25]    + encoder: AAC (libavcodec)
+[11:30:25]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[11:30:25] dvd: Region mask 0xff
+[11:30:25] dvd: Warning, DVD device has no region set
+[11:30:26] dvd: Skipping multi-angle cells 1-3
+[11:30:26] dvd: Skipping multi-angle cells 6-8
+[11:30:26] dvd: Skipping multi-angle cells 10-12
+[11:30:26] dvd: Skipping multi-angle cells 14-16
+[11:30:26] dvd: Skipping multi-angle cells 18-20
+[11:30:26] dvd: Skipping multi-angle cells 22-24
+[11:30:26] dvd: Skipping multi-angle cells 26-28
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 6-8
+[11:30:26] dvd: Skipping multi-angle cells 10-12
+[11:30:26] dvd: Skipping multi-angle cells 14-16
+[11:30:26] dvd: Skipping multi-angle cells 18-20
+[11:30:26] dvd: Skipping multi-angle cells 22-24
+[11:30:26] dvd: Skipping multi-angle cells 26-28
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 6-8
+[11:30:26] dvd: Skipping multi-angle cells 10-12
+[11:30:26] dvd: Skipping multi-angle cells 14-16
+[11:30:26] dvd: Skipping multi-angle cells 18-20
+[11:30:26] dvd: Skipping multi-angle cells 22-24
+[11:30:26] dvd: Skipping multi-angle cells 26-28
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 10-12
+[11:30:26] dvd: Skipping multi-angle cells 14-16
+[11:30:26] dvd: Skipping multi-angle cells 18-20
+[11:30:26] dvd: Skipping multi-angle cells 22-24
+[11:30:26] dvd: Skipping multi-angle cells 26-28
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 14-16
+[11:30:26] dvd: Skipping multi-angle cells 18-20
+[11:30:26] dvd: Skipping multi-angle cells 22-24
+[11:30:26] dvd: Skipping multi-angle cells 26-28
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] dvd: Skipping multi-angle cells 1-3
+[11:30:26] dvd: Skipping multi-angle cells 6-8
+[11:30:26] dvd: Skipping multi-angle cells 10-12
+[11:30:26] dvd: Skipping multi-angle cells 14-16
+[11:30:26] dvd: Skipping multi-angle cells 18-20
+[11:30:26] dvd: Skipping multi-angle cells 22-24
+[11:30:26] dvd: Skipping multi-angle cells 26-28
+[11:30:26] dvd: Skipping multi-angle cells 30-32
+[11:30:26] dvd: Skipping multi-angle cells 34-36
+[11:30:26] dvd: Skipping multi-angle cells 40-42
+[11:30:26] dvd: Skipping multi-angle cells 52-54
+[11:30:26] dvd: Skipping multi-angle cells 64-66
+[11:30:26] dvd: Skipping multi-angle cells 80-82
+[11:30:26] sync: expecting 192507 video frames
+[11:30:26] encx264: min-keyint: 1, keyint: 12
+[11:30:26] encx264: encoding at constant RF 2.000000
+[11:30:26] encx264: unparsed options: keyint=12:keyint-min=1:ref=1:bframes=0:qcomp=0.8:aq-strength=0.5:dct-decimate=0:fast-pskip=0:deblock=-2,-2:weightp=1:subme=6:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 3.0, 4:2:0, 8-bit
+[11:30:27] sync: first pts video is 0
+[11:30:27] sync: "Chapter 1" (1) at frame 1 time 0
+[11:30:27] sync: first pts audio 0x80bd is 0
+[11:30:27] sync: first pts audio 0x81bd is 0
+[11:30:27] sync: first pts audio 0x82bd is 0
+[11:30:27] sync: first pts audio 0x83bd is 0
+[11:31:26] sync: "Chapter 2" (2) at frame 3690 time 13847583
+[11:33:16] sync: "Chapter 3" (3) at frame 11166 time 41910618
+[11:33:35] sync: "Chapter 4" (4) at frame 12517 time 46981935
+[11:34:21] sync: "Chapter 5" (5) at frame 15917 time 59744685
+[11:34:44] sync: "Chapter 6" (6) at frame 17753 time 66636570
+[11:35:08] sync: "Chapter 7" (7) at frame 19670 time 73832508
+[11:36:09] sync: "Chapter 8" (8) at frame 24917 time 93528435
+[11:36:56] sync: "Chapter 9" (9) at frame 28982 time 108787428
+[11:37:20] sync: "Chapter 10" (10) at frame 31505 time 118258140
+[11:37:47] sync: "Chapter 11" (11) at frame 34198 time 128366988
+[11:37:57] sync: "Chapter 12" (12) at frame 35261 time 132357225
+[11:38:32] sync: "Chapter 13" (13) at frame 38666 time 145138743
+[11:38:43] sync: "Chapter 14" (14) at frame 39941 time 149924775
+[11:39:22] sync: "Chapter 15" (15) at frame 44033 time 165285120
+[11:40:11] sync: "Chapter 16" (16) at frame 48737 time 182942760
+[11:40:57] sync: "Chapter 17" (17) at frame 53481 time 200750550
+[11:42:01] sync: "Chapter 18" (18) at frame 61125 time 229444215
+[11:42:53] sync: "Chapter 19" (19) at frame 67981 time 255179925
+[11:43:40] sync: "Chapter 20" (20) at frame 73449 time 275705430
+[11:43:54] sync: "Chapter 21" (21) at frame 75357 time 282867585
+[11:44:33] sync: "Chapter 22" (22) at frame 80381 time 301726425
+[11:45:17] sync: "Chapter 23" (23) at frame 86014 time 322871298
+[11:45:44] sync: "Chapter 24" (24) at frame 89361 time 335435100
+[11:46:17] sync: "Chapter 25" (25) at frame 94101 time 353227875
+[11:47:12] sync: "Chapter 26" (26) at frame 101259 time 380096466
+[11:47:12] 4223.319336s: Film -> Video
+[11:47:12] 4223.352539s: Video -> Film
+[11:47:37] sync: "Chapter 27" (27) at frame 104747 time 393187294
+[11:48:17] sync: "Chapter 28" (28) at frame 109998 time 412898235
+[11:48:44] sync: "Chapter 29" (29) at frame 113734 time 426922245
+[11:49:16] sync: "Chapter 30" (30) at frame 117830 time 442297605
+[11:49:33] sync: "Chapter 31" (31) at frame 119999 time 450439489
+[11:50:02] sync: "Chapter 32" (32) at frame 123675 time 464238274
+[11:50:20] sync: "Chapter 33" (33) at frame 125978 time 472883160
+[11:50:49] sync: "Chapter 34" (34) at frame 129390 time 485690955
+[11:51:15] sync: "Chapter 35" (35) at frame 132183 time 496175179
+[11:51:45] sync: "Chapter 36" (36) at frame 135658 time 509219460
+[11:52:09] sync: "Chapter 37" (37) at frame 138266 time 519009240
+[11:52:31] sync: "Chapter 38" (38) at frame 140682 time 528078300
+[11:53:05] sync: "Chapter 39" (39) at frame 144502 time 542417625
+[11:53:37] sync: "Chapter 40" (40) at frame 147774 time 554699895
+[11:54:17] sync: "Chapter 41" (41) at frame 151674 time 569339520
+[11:54:52] sync: "Chapter 42" (42) at frame 155230 time 582687855
+[11:55:32] sync: "Chapter 43" (43) at frame 158978 time 596756910
+[11:56:19] sync: "Chapter 44" (44) at frame 163234 time 612732870
+[11:57:04] sync: "Chapter 45" (45) at frame 166527 time 625093969
+[11:58:06] sync: "Chapter 46" (46) at frame 171734 time 644639745
+[11:58:38] sync: "Chapter 47" (47) at frame 174322 time 654354450
+[11:59:16] sync: "Chapter 48" (48) at frame 177302 time 665540625
+[12:00:06] sync: "Chapter 49" (49) at frame 180814 time 678723795
+[12:02:42] reader: done. 29 scr changes
+[12:02:42] sync: "Chapter 50" (50) at frame 192700 time 723303330
+[12:02:42] work: average encoding speed for job is 99.550659 fps
+[12:02:42] vfr: 192690 frames output, 10 dropped and 0 duped for CFR/PFR
+[12:02:42] vfr: lost time: 0 (0 frames)
+[12:02:42] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[12:02:43] ac3-decoder done: 251148 frames, 0 decoder errors
+[12:02:43] ac3-decoder done: 251148 frames, 0 decoder errors
+[12:02:43] ac3-decoder done: 251148 frames, 0 decoder errors
+[12:02:43] ac3-decoder done: 251148 frames, 0 decoder errors
+[12:02:43] mpeg2video-decoder done: 192700 frames, 0 decoder errors
+[12:02:43] sync: got 192700 frames, 192507 expected
+[12:02:43] sync: framerate min 23.976 fps, max 29.970 fps, avg 23.977 fps
+[aac @ 0x7f43f81e3ec0] Ignoring attempt to flush encoder that doesn't support it
+[aac @ 0x7f43f81e3ec0] Qavg: 7887.711
+[aac @ 0x7f43f8324c80] Ignoring attempt to flush encoder that doesn't support it
+[aac @ 0x7f43f8324c80] Qavg: 18628.557
+[aac @ 0x7f43f8465a00] Ignoring attempt to flush encoder that doesn't support it
+[aac @ 0x7f43f8465a00] Qavg: 12050.013
+[aac @ 0x7f43f85a6800] Ignoring attempt to flush encoder that doesn't support it
+[aac @ 0x7f43f85a6800] Qavg: 13246.038
+x264 [info]: frame I:20989 Avg QP: 0.49  size:117175
+x264 [info]: frame P:171701 Avg QP: 1.81  size: 80204
+x264 [info]: mb I  I16..4: 35.8% 23.6% 40.6%
+x264 [info]: mb P  I16..4:  9.8%  6.1% 14.8%  P16..4: 27.2% 13.0%  9.6%  0.0%  0.0%    skip:19.6%
+x264 [info]: 8x8 transform intra:20.9% inter:18.0%
+x264 [info]: coded y,uvDC,uvAC intra: 91.6% 91.9% 91.8% inter: 63.5% 60.5% 60.4%
+x264 [info]: i16 v,h,dc,p: 22% 16% 38% 24%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 20% 36%  4%  4%  4%  4%  5%  5%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 19% 25%  6%  7%  7%  6%  6%  7%
+x264 [info]: i8c dc,h,v,p: 69% 13% 11%  7%
+x264 [info]: Weighted P-Frames: Y:2.7% UV:1.5%
+x264 [info]: kb/s:16156.16
+[12:02:43] mux: track 0, 192690 frames, 16229578488 bytes, 16155.31 kbps, fifo 512
+[12:02:43] mux: track 1, 376723 frames, 318348249 bytes, 316.89 kbps, fifo 1024
+[12:02:43] mux: track 2, 376723 frames, 314081890 bytes, 312.64 kbps, fifo 1024
+[12:02:43] mux: track 3, 376723 frames, 315206559 bytes, 313.76 kbps, fifo 1024
+[12:02:43] mux: track 4, 376723 frames, 313834111 bytes, 312.40 kbps, fifo 1024
+[12:02:43] Finished work at: Wed Nov 11 12:02:43 2020
+
+[12:02:43] libhb: work result = 0

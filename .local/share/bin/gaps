@@ -1,0 +1,22 @@
+#!/bin/fish
+
+set mode $argv[1]
+set num $argv[2]
+
+set window_gap (bspc config window_gap)
+set default_window_gap 2
+
+if test "$mode" = "t"
+    and test "$border_width" = "0"
+    bspc config window_gap  $window_gap
+else
+    bspc config window_gap 0
+end
+
+if test "$mode" = "i"
+    set delta (echo "$window_gap + $default_window_gap" | bc)
+else if test "$mode" = "d"
+    set delta (echo "$window_gap - $default_window_gap" | bc)
+end
+
+bspc config window_gap $delta

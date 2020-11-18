@@ -1,0 +1,29 @@
+#!/bin/fish
+
+set msgID 736756
+
+set delta $argv[1]
+set num   $argv[2]
+
+if test "$delta" = "mute"
+    pamixer --toggle-mute
+else if test "$delta" = "i"
+    pamixer --increase $num
+else if test "$delta" = "d"
+    pamixer --decrease $num
+end
+
+set volume (pamixer --get-volume)
+set mute (pamixer --get-mute)
+
+if test "$volume" = "0"
+    or test "$mute" = "true"
+        dunstify -a "changeVolume" -u low -i audio-volume-muterd -r "$msgID" \
+        "Volume Muted"
+        echo "Volume Muted"
+else
+    dunstify -a "changeVolume" -u low -i audio-volume-high -r "$msgID" \
+    "Volume: $volume%" (getProgressString 10 $volume)
+end
+
+canberra-gtk-play -i audio-volume-change -d "changeVolume"

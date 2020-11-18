@@ -1,0 +1,22 @@
+#!/bin/fish
+
+set mode $argv[1]
+set num $argv[2]
+
+set border_width  (bspc config border_width)
+set default_border_width 2
+
+if test "$mode" = "t"
+    and test "$border_width" = "0"
+    bspc config border_width $default_border_width
+else
+    bspc config border_width 0
+end
+
+if test "$mode" = "i"
+    set delta (echo "$border_width + $default_border_width" | bc)
+else if test "$mode" = "d"
+    set delta (echo "$border_width - $default_border_width" | bc)
+end
+
+bspc config border_width $delta

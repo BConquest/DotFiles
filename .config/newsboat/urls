@@ -1,0 +1,11 @@
+https://drewdevault.com/blog/index.xml "Blog"
+https://icyphox.sh/blog/feed.xml       "Blog"
+https://gideonwolfe.com/index.xml      "Blog"
+
+https://news.ycombinator.com/rss       "News"
+
+https://github.com/void-linux/void-packages/commits/master.atom "Void" "Linux"
+https://github.com/void-linux/xbps/commits/master.atom          "Void" "Linux"
+https://voidlinux.org/atom.xml                                  "Void" "Linux"
+
+http://rss.cnn.com/rss/money_latest.rss                         "CNN" "Money"

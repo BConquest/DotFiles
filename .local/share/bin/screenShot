@@ -1,0 +1,10 @@
+#!/bin/fish
+
+set msgID 706867
+set date (date +%s)
+
+maim -g (slop) ~/pix/screenshots/$date.png
+xclip -selection clipboard -t image/png ~/pix/screenshots/$date.png
+
+dunstify -a "screenShotTaken" -u low -r "$msgID" "Screen Shot Taken"
+canberra-gtk-play -i camera-shutter -d "screenShotTaken"

@@ -1,0 +1,38 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/scl/2020/CS435/reservrec">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1k4OfOb3vRnZF8Xga0AiC3MLLEy">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-201.8743.12.41.6858069" />
+              <option name="buildTimestamp" value="1600875386956" />
+              <frame x="1608" y="8" width="2540" height="1060" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1605040829756" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/scl/2020/CS495/reservrec">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1k4OfOb3vRnZF8Xga0AiC3MLLEy">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-201.8743.12.41.6858069" />
+              <option name="buildTimestamp" value="1600875371442" />
+              <frame x="1608" y="8" width="2540" height="1060" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1605670153850" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/scl/2020/CS495/reservrec" />
+        <option value="$USER_HOME$/scl/2020/CS435/reservrec" />
+      </list>
+    </option>
+  </component>
+</application>
